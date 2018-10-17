@@ -1,0 +1,16 @@
+<html ng-app="root">
+	<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script src="root.js"></script>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	</head>
+	<body>
+		<div ng-controller="index">
+		  <input type="text" ng-model="value" />
+			  <span ng-class="{bold: isBold(), italic: isItalic(), underline: isUnderlined()}">
+			  Example Text
+				  
+			  </span>
+		</div>
+	</body>
+</html>
